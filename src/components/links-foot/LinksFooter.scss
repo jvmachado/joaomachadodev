@@ -1,0 +1,12 @@
+@import '../../styles/mixins';
+
+.linksFooter {
+  font-size: 2rem;
+  @include centre("x")
+
+  a {
+    color: white;
+    display: inline-flex;
+    margin-right: 20px;
+  }
+}
